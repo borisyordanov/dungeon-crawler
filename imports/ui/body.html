@@ -1,24 +1,15 @@
 <body>
     <main class="container">
         <section class="header">
-            <h1 class="title">Recipe Box ({{incompleteCount}})</h1> {{> loginButtons}}
+            <h1 class="title">Dungeon Crawler MeteorJS</h1>
+            <h2 class="title">Kill the boss in Dungeon №5</h2>
+            {{> loginButtons}}
         </section>
         <section class="main">
             {{#if currentUser}}
-            <form class="new-recipe">
-                <input class="input-box name" type="text" name="name" placeholder="New recipe name" />
-                <input class="input-box ingredient" type="text" name="ingredient" placeholder="Recipe ingredient" />
-                <input class="input-box ingredient" type="text" name="ingredient" placeholder="Recipe ingredient" />
-                <input class="input-box ingredient" type="text" name="ingredient" placeholder="Recipe ingredient" />
-                <button type="submit" id="add-recipe">Add Recipe</button>
-            </form>
+                {{> stats}}            
+                {{> field}}
             {{/if}}
-            <ul class="recipes">
-                {{#each recipes}} {{> recipe}} {{/each}}
-            </ul>
-            <label class="hide-completed">
-                <input type="checkbox" /> Hide Completed Recipes
-            </label>
         </section>
     </main>
 </body>

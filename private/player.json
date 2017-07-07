@@ -1,0 +1,29 @@
+{
+    "health": 100,
+    "weapon": "stick",
+    "attack": 10,
+    "level": 0,
+    "nextLevel": 50,
+    "dungeon": 0,
+    "levels": [{
+        "_id": 1,
+        "name": "1",
+        "points": 100
+    }, {
+        "_id": 2,
+        "name": "2",
+        "points": 200
+    }, {
+        "_id": 3,
+        "name": "3",
+        "points": 300
+    }, {
+        "_id": 4,
+        "name": "4",
+        "points": 400
+    }, {
+        "_id": 5,
+        "name": "5",
+        "points": 500
+    }]
+}

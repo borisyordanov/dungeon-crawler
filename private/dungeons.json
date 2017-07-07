@@ -1,0 +1,138 @@
+{
+    "dungeons": [{
+        "_id": "1",
+        "totalCellAmount": 1200,
+        "name": "Level 1",
+        "obstacles": 200,
+        "healthPacks": {
+            "amount": 5,
+            "health": 10
+        },
+        "enemies": {
+            "amount": 5,
+            "attack": 10,
+            "points": 10
+        },
+        "weapons": {
+            "amount": 1,
+            "weaponType": "club",
+            "weaponAttack": "15"
+        },
+        "portals": {
+            "amount": 1,
+            "leadsTo": "2"
+        },
+        "bosses": {
+            "amount": 0,
+            "attack": 0
+        }
+    }, {
+        "_id": "2",
+        "totalCellAmount": 1200,
+        "name": "Level 2",
+        "obstacles": 250,
+        "healthPacks": {
+            "amount": 7,
+            "health": 20
+        },
+        "enemies": {
+            "amount": 7,
+            "attack": 20,
+            "points": 20
+        },
+        "weapons": {
+            "amount": 1,
+            "weaponType": "dagger",
+            "weaponAttack": "20"
+        },
+        "portals": {
+            "amount": 1,
+            "leadsTo": "3"
+        },
+        "bosses": {
+            "amount": 0,
+            "attack": 0
+        }
+    }, {
+        "_id": "3",
+        "totalCellAmount": 1200,
+        "name": "Level 3",
+        "obstacles": 300,
+        "healthPacks": {
+            "amount": 7,
+            "health": 30
+        },
+        "enemies": {
+            "amount": 7,
+            "attack": 30,
+            "points": 30
+        },
+        "weapons": {
+            "amount": 1,
+            "weaponType": "sword",
+            "weaponAttack": "25"
+        },
+        "portals": {
+            "amount": 1,
+            "leadsTo": "4"
+        },
+        "bosses": {
+            "amount": 0,
+            "attack": 0
+        }
+    }, {
+        "_id": "4",
+        "totalCellAmount": 1200,
+        "name": "Level 4",
+        "obstacles": 350,
+        "healthPacks": {
+            "amount": 8,
+            "health": 40
+        },
+        "enemies": {
+            "amount": 8,
+            "attack": 40,
+            "points": 40
+        },
+        "weapons": {
+            "amount": 1,
+            "weaponType": "axe",
+            "weaponAttack": "30"
+        },
+        "portals": {
+            "amount": 1,
+            "leadsTo": "5"
+        },
+        "bosses": {
+            "amount": 0,
+            "attack": 0
+        }
+    }, {
+        "_id": "5",
+        "totalCellAmount": 1200,
+        "name": "Level 5",
+        "obstacles": 400,
+        "healthPacks": {
+            "amount": 8,
+            "health": 50
+        },
+        "enemies": {
+            "amount": 8,
+            "attack": 50,
+            "points": 50
+        },
+        "weapons": {
+            "amount": 1,
+            "weaponType": "bazooka",
+            "weaponAttack": "50"
+        },
+        "portals": {
+            "amount": 0,
+            "leadsTo": ""
+        },
+        "bosses": {
+            "amount": 1,
+            "attack": 100
+        }
+    }]
+}

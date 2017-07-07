@@ -1,13 +1,13 @@
 import { Template } from 'meteor/templating';
-import { Recipes } from '../api/recipes.js';
 import { ReactiveDict } from 'meteor/reactive-dict';
 import { Meteor } from 'meteor/meteor';
-import './recipe.js';
+import './field.js';
+import './stats.js';
 import './body.html';
 
 Template.body.onCreated(function bodyOnCreated() {
 	this.state = new ReactiveDict();
-	Meteor.subscribe('recipes');
+	Meteor.subscribe('dungeons');
 });
 
 Template.body.helpers({
@@ -29,28 +29,5 @@ Template.body.events({
 	'submit .new-recipe'(event) {
 		// Prevent default browser form submit
 		event.preventDefault();
-		// Get value from form element
-
-		var name = event.target.name;
-		var ingredients = event.target.ingredient;
-
-		var recipeName = name.value;
-		var recipeIngredients = [];
-		ingredients.forEach(ingredient => {
-			recipeIngredients.push(ingredient.value);
-		});
-
-		// Insert a recipe into the collection
-		Meteor.call('recipes.insert', {
-			name: recipeName,
-			ingredients: recipeIngredients
-		});
-
-		// Clear form
-		// target.text.value = '';
-	},
-	'change .hide-completed input'(event, instance) {
-		console.log(event.target.checked);
-		instance.state.set('hideCompleted', event.target.checked);
 	}
 });

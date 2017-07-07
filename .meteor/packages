@@ -21,3 +21,7 @@ reactive-dict
 accounts-ui
 accounts-password
 practicalmeteor:mocha
+autopublish
+insecure
+gwendall:body-events
+session

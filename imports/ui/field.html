@@ -1,0 +1,11 @@
+<template name="field">
+    <div class="field">
+        {{#each generatedRows}}
+        <div class="row">
+            {{#each this}}
+            <div class="cell {{this}}"></div>
+            {{/each}}
+        </div>
+        {{/each}}
+    </div>
+</template>
