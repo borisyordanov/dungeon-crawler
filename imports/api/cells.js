@@ -13,14 +13,15 @@ if (Meteor.isServer) {
 }
 
 Meteor.methods({
-	'cells.add'(newCells) {
+	'cell.insert'(newCells) {
+		console.log(newCells);
 		check(newCells, Array);
-		console.log('asdcvz');
 
 		// Make sure the user is logged in before inserting a task
 		if (!Meteor.userId()) {
 			throw new Meteor.Error('not-authorized');
 		}
+		console.log('asdcvz');
 
 		newCells.forEach(cell => Cells.insert(cell));
 	}

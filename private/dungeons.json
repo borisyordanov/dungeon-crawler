@@ -2,7 +2,7 @@
     "dungeons": [{
         "_id": "1",
         "totalCellAmount": 1200,
-        "name": "Level 1",
+        "name": "1",
         "obstacles": 200,
         "healthPacks": {
             "amount": 5,
@@ -16,7 +16,7 @@
         "weapons": {
             "amount": 1,
             "weaponType": "club",
-            "weaponAttack": "15"
+            "weaponAttack": 15
         },
         "portals": {
             "amount": 1,
@@ -25,11 +25,12 @@
         "bosses": {
             "amount": 0,
             "attack": 0
-        }
+        },
+        "cells": []
     }, {
         "_id": "2",
         "totalCellAmount": 1200,
-        "name": "Level 2",
+        "name": "2",
         "obstacles": 250,
         "healthPacks": {
             "amount": 7,
@@ -43,7 +44,7 @@
         "weapons": {
             "amount": 1,
             "weaponType": "dagger",
-            "weaponAttack": "20"
+            "weaponAttack": 20
         },
         "portals": {
             "amount": 1,
@@ -52,11 +53,12 @@
         "bosses": {
             "amount": 0,
             "attack": 0
-        }
+        },
+        "cells": []
     }, {
         "_id": "3",
         "totalCellAmount": 1200,
-        "name": "Level 3",
+        "name": "3",
         "obstacles": 300,
         "healthPacks": {
             "amount": 7,
@@ -70,7 +72,7 @@
         "weapons": {
             "amount": 1,
             "weaponType": "sword",
-            "weaponAttack": "25"
+            "weaponAttack": 25
         },
         "portals": {
             "amount": 1,
@@ -79,11 +81,12 @@
         "bosses": {
             "amount": 0,
             "attack": 0
-        }
+        },
+        "cells": []
     }, {
         "_id": "4",
         "totalCellAmount": 1200,
-        "name": "Level 4",
+        "name": "4",
         "obstacles": 350,
         "healthPacks": {
             "amount": 8,
@@ -97,7 +100,7 @@
         "weapons": {
             "amount": 1,
             "weaponType": "axe",
-            "weaponAttack": "30"
+            "weaponAttack": 30
         },
         "portals": {
             "amount": 1,
@@ -106,11 +109,12 @@
         "bosses": {
             "amount": 0,
             "attack": 0
-        }
+        },
+        "cells": []
     }, {
         "_id": "5",
         "totalCellAmount": 1200,
-        "name": "Level 5",
+        "name": "5",
         "obstacles": 400,
         "healthPacks": {
             "amount": 8,
@@ -124,7 +128,7 @@
         "weapons": {
             "amount": 1,
             "weaponType": "bazooka",
-            "weaponAttack": "50"
+            "weaponAttack": 50
         },
         "portals": {
             "amount": 0,
@@ -133,6 +137,7 @@
         "bosses": {
             "amount": 1,
             "attack": 100
-        }
+        },
+        "cells": []
     }]
 }
